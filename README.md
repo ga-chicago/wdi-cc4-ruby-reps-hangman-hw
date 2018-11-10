@@ -60,7 +60,7 @@ toonify("daffy", "so you smell like sausage")
 
 ---
 
-## 4. `word_reverse`
+### 4. `word_reverse`
 
 Write a method `word_reverse` that accepts a single argument, a string. The method should return a string with the order of the words reversed. Don't worry
 about punctuation.
