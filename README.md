@@ -19,7 +19,7 @@ lengths(words)  # => [5, 4, 2, 2, 4]
 
 ---
 
-## 2. `transmogrifier`
+### 2. `transmogrifier`
 
 Write a Ruby method called `transmogrifier`
 This method should accept three arguments, which you can assume will be numbers.
