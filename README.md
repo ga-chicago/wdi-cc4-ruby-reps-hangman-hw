@@ -127,8 +127,8 @@ Make a hangman ruby console game.  You must have a Word class.  You should also 
 
 #### Suggested methods for your Word class
 
-* `initialize` -- perhaps make this take a parameter like `desired_word`
-* `check_letter?` and/or `.contains`
+* `.initialize` -- perhaps make this take a parameter like `desired_word`
+* `.check_letter?` and/or `.contains`
 * `.print_stats`: This could call the three below 
 * `.render` (show with blanks for unguessed letters and letters for guessed letters)
 * `.print_remaining_guesses`
