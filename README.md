@@ -2,11 +2,11 @@
 
 # Ruby Language Weekend Homework
 
-# PART 1! THE REPS
+## PART 1! THE REPS
 
 These problems better look familiar to you.  It's perfectly fine to look back at your JavaScript answers to this from Unit 1 and use the same algorithms to just rewrite a solution in Ruby.  
 
-## 1. `lengths`
+### 1. `lengths`
 
 Write a method `lengths` that accepts a single parameter as an argument, namely an array of strings. The method should return an array of numbers. Each number in the array should be the length of the corresponding string.
 
@@ -42,7 +42,7 @@ transmogrifier(42, 13, 7)
 
 ---
 
-## 3. `toonify`
+### 3. `toonify`
 
 Write a method called `toonify` that takes two parameters, `accent` and `sentence`.
 - If `accent` is the string `"daffy"`, return a modified version of `sentence` with all "s" replaced with "th".
@@ -74,7 +74,7 @@ word_reverse("Now I know what a TV dinner feels like")
 
 ---
 
-## 5. `letter_reverse`
+### 5. `letter_reverse`
 
 Write a method `letter_reverse` that accepts a single argument, a string. The method should maintain the order of words in the string but reverse the letters in each word. Don't worry about punctuation. This will be very similar to round 4 except you won't need to split them with a space.
 
@@ -89,7 +89,7 @@ letter_reverse("Put Hans back on the line")
 
 ---
 
-## 6. `longest`
+### 6. `longest`
 
 Write a method `longest` that accepts a single argument, an array of strings. The method should return the longest word in the array. In case of a tie, the method should return either.
 
@@ -103,7 +103,7 @@ longest(["Nothing" , "takes", "the", "taste", "out", "of", "peanut", "butter", "
 
 ---
 
-## 7. `check_prime?` & `get_primes` 
+### 7. `check_prime?` & `get_primes` 
 
 * Write a method called `check_prime?` that will test whether a number is Prime. The method will return true if Prime, false if not.
 
@@ -121,7 +121,7 @@ Check out [Ruby's `Prime` class](http://ruby-doc.org/stdlib-2.4.1/libdoc/prime/r
 
 ---
 
-# PART 2: HANGMAN GAME
+## PART 2: HANGMAN GAME
 
 Make a hangman ruby console game.  You must have a Word class.  You should also have a `word_array` containing a couple dozen words to randomly choose from.  And then use `loop` for the main game logic with repeated guessing, and `break` when the game is over.  
 
