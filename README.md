@@ -119,18 +119,22 @@ Check out [Ruby's `Prime` class](http://ruby-doc.org/stdlib-2.4.1/libdoc/prime/r
 
 ### Commit!
 
+
 ---
 
 ## PART 2: HANGMAN GAME
 
 Make a hangman ruby console game.  You must have a Word class.  You should also have a `word_array` containing a couple dozen words to randomly choose from.  And then use `loop` for the main game logic with repeated guessing, and `break` when the game is over.  
 
-#### Suggested methods for your Word class
+#### Suggested methods for your `Word` class
 
 * `.initialize` -- perhaps make this take a parameter like `desired_word`
 * `.check_letter?` and/or `.contains`
-* `.print_stats`: This could call the three below 
+  * maybe this method could change some attributes in your `Word` class to alter what's displayed by `.render`
 * `.render` (show with blanks for unguessed letters and letters for guessed letters)
-* `.print_remaining_guesses`
-* `.print_guessed_letters`
 
+#### The rest of the logic you can just write directly in the `loop` itself. With maybe a few variables right above the `loop`.  Keep it simple and just focus on playing through one round of guessing.
+
+#### Want More?
+
+Figure out a way to repeat rounds and track number of rounds won/lost. 
